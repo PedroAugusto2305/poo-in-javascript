@@ -29,3 +29,20 @@ Exemplos:
 -> Objetos de uma classe Person possuem um atributo que é um objeto da classe Address.
 
 -> Objetos de uma classe Product possuem um atributo que é um array de objetos da classe Category.
+
+## Encapsulamento
+
+- Encapsulamento é o princípio de impedir que determinadas partes de uma classe sejam acessíveis pelo contexo exterior.
+
+- No JavaScript existem 2 níveis de encapsulamento:
+
+  1. Público: onde o atributo/método é acessível fora da classe (nível padrão)
+  2. Privado: onde o atributo/método só é acessível dentro da própria classe
+
+- Para definirmos um atributo ou método como privado utilizamos um # no começo do seu nome.
+
+- Todo atributo ou método que não for privado será automaticamente público.
+
+- Exemplos:
+  1. Uma classe tem um atributo que é definido uma vez durante a construção mas depois não pode ser alterado diretamente (usando obj.atributo = "novo valor")
+  2. Uma classe possui um método principal internamente chama vários outros métodos da própria classe que não fazem sentido individualmente.
