@@ -58,3 +58,15 @@ Exemplos:
 - Exemplos:
   1. Imagine uma classe User que possui seus atributos e métodos. Poderíamos ter classes AdminUser, EditorUser e StandardUser que são todas filhas de User, mas cada uma também possui seus próprios atributos e métodos.
   2. Ou ainda uma classe Property (como em um imóvel) pode ser a classe mãe das classes filhas House e Apartment.
+
+## Polimorfismo
+
+- É o conceito que descreve o ato de um bojeto poder assumir diferentes formas
+
+- Na POO, isso pode ser percebido na **sobrescrita** de métodos
+
+- No JavaScript, uma classe filha pode ter suas próprias implementações dos métodos da classe mãe. A isso damos o nome de **sobrescrita de métodos**.
+
+- Exemplos:
+  1. A classe Vehicle possui alguns atributos e um método move()
+  2. As classes Bike, Car, Ship e Plane são todas filhas de Vehicle, porém cada uma delas implementa o método move() de uma forma diferente (sobrescrevendo o método).
